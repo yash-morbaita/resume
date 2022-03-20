@@ -41,10 +41,11 @@
               <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
               <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
               {% if user.is.authenticated %}
-              <li class="nav-item"><a class="nav-link" href="accounts/logout/">Sign Out</a></li>
+              <li class="nav-item"><a class="nav-link">{{user.first_name}}</a></li>
+              <li class="nav-item"><a class="nav-link" href="accounts/logout">Sign Out</a></li>
               {% else %}
-              <li class="nav-item"><a class="nav-link" href="accounts/login/">Sign in</a></li>
-              <li class="nav-item"><a class="nav-link" href="accounts/register/">Register</a></li>
+              <li class="nav-item"><a class="nav-link" href="accounts/login">Sign in</a></li>
+              <li class="nav-item"><a class="nav-link" href="accounts/register">Register</a></li>
               {% endif %}
             </ul>
           </div>
@@ -98,7 +99,7 @@
             <div class="pb-1">Email:</div>
           </div>
           <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">contact@yashmorbaita.com</div>
+            <div class="pb-1 fw-bolder">yashmorbaita@gmail.com</div>
           </div>
           <div class="col-sm-2">
             <div class="pb-1">upwrok:</div>
@@ -110,13 +111,13 @@
             <div class="pb-1">Phone:</div>
           </div>
           <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">+977 980-1168-111</div>
+            <div class="pb-1 fw-bolder">+1 508 847 9718</div>
           </div>
           <div class="col-sm-2">
             <div class="pb-1">Address:</div>
           </div>
           <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Kathmandu, Nepal</div>
+            <div class="pb-1 fw-bolder">Boston, MA, USA</div>
           </div>
           <div class="col-sm-2">
             <div class="pb-1">Staus:</div>
